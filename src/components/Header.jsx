@@ -2,7 +2,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo.png'
 import { useNavigate } from "react-router-dom";
 import React, { useContext } from "react";
-import { TaskContext } from "../context/taskContext";
+import { TaskContext } from "../context/TaskContext";
 export const Header = () => {
     const { logout } = useContext(TaskContext);
     const navigate = useNavigate();
