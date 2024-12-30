@@ -1,7 +1,5 @@
-// // App.js
-
 import React from "react";
-import { TaskProvider } from "./context/taskContext";
+import { TaskProvider } from "./context/TaskContext";
 import Login from "./components/Login";
 import AddTask from "./components/AddTask";
 import FilterTasks from "./components/FilterTasks";

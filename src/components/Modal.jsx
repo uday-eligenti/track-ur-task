@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import React, { useContext, useState } from "react";
-import { TaskContext } from "../context/taskContext";
+import { TaskContext } from "../context/TaskContext";
 
 function TaskModal({task, showModal, setShowModal}) {
   const { removeTask } = useContext(TaskContext);

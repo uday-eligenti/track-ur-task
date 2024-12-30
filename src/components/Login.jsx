@@ -16,13 +16,11 @@ const Login = () => {
       setError("User ID is required");
       return;
     }
-    // setTimeout(() => {
       setError("");
       setLoading(false);
       const user = { id: userId, token: "dummy_token" };
       setUserToLocalStorage(user);
       navigate("/tasks");
-    // }, 1000);
   };
 
   return (
